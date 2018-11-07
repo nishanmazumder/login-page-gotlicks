@@ -208,6 +208,13 @@ ul, li{
 	color: #7FB937;
 	border-bottom: 1px solid #7FB937;
 }
+.tabcontent {
+    animation: fadeEffect 1s;
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
 .nm_form{}
  
 .nm_form input{
